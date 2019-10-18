@@ -1,0 +1,21 @@
+{
+  "name": "plataforma-perguntas",
+  "version": "1.0.0",
+  "description": "plataforma de perguntas e respostas ao estilo yahoo respostas - criada no curso de node do guia do programador na udemy",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Lima - Guia do Programador",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "sequelize": "^5.19.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
